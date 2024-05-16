@@ -18,8 +18,8 @@
 
     <!--cards section-->
     
-    <div class="p-2 grid grid-cols-1 gap-8 md:grid md:grid-cols-2 md:gap-8 lg:grid-cols-4 lg:gap-5 xl:flex xl:items-center xl:gap-6 mt-8" >
-      <div v-for="card in cards" :key="card.pricing ">
+    <div class="p-2 grid  grid-cols-1 gap-8 md:grid md:grid-cols-2 md:gap-8 lg:grid-cols-4 lg:gap-5 xl:flex xl:items-center xl:gap-6 mt-8" >
+      <div v-for="card in cards" :key="card.pricing">
         <Card :card="card" />
       </div>
     </div>
@@ -60,7 +60,7 @@ import  Card from './Card.vue'
              number: "+ 234 students",
              date: "1-28 july 2022",
              title1: "The Science of Well-Being",
-             title: "",
+             title: "For Everyone",
              details: "Product Management Masterclass, you will learn with Sarah Johnson - Head of Product Customer Platform Gojek Indonesia.",
              pricing: 123,
              discount: "/img/cards/Discount.png"
@@ -87,6 +87,8 @@ import  Card from './Card.vue'
       { content: "Program Design" }
     
   ])
+
+
 </script>
 
 <style scoped>

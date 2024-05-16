@@ -7,12 +7,13 @@
                <img :src="card.img2" alt="" class="w-[95px]">
                <span class="font-custom text-[14px] text-[#263238]">{{ card.number }}</span>
         </div>
+
+        <!-- -->
     <!--Card text content-->
          <div class="flex flex-col gap-3 w-full h-[120px] mt-16 px-3 font-custom ">
               <span class="text-[rgb(119,119,149)] text-xs">{{ card.date }}</span>
-              <span class="text-[#0B7077] text-[15.2px] font-bold text-wrap">{{ card.title1 }}</span>
-              
-                <span  class="text-[#0B7077] text-[15.2px] font-bold text-wrap mt-[-10px]">{{ card.title }}</span>
+              <span class="text-[#0B7077] text-[15.2px] font-bold text-wrap" >{{ card.title1 }}</span>
+              <span class="text-[#0B7077] text-[15.2px] font-bold text-wrap mt-[-10px]">{{ card.title }}</span>
     
                   <p class="text-[10px] text-[#4D4D4D]">{{ card.details}}</p>
               
