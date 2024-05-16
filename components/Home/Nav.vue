@@ -27,22 +27,17 @@
     </nav>
 </template>
 
-<script>
-export default {
-    data (){
-        return {
-            navbarOpen: false,
-        }
-    },
-    methods: {
-       togglemenu(){
-        const navlink = this.$refs.navlink
-        this.navbarOpen = !this.navbarOpen
-         navlink.classList.toggle('top-[-7%]')
-       }
-    }
-}
+<script setup>
+import {ref} from 'vue';
+const navbarOpen = ref(false)
+const navlink = ref(null)
 
+const togglemenu = () => {
+    navbarOpen.value = !navbarOpen.value
+    if (navlink.value) {
+    navlink.value.classList.toggle('top-[-7%]')
+  }
+}
 </script>
 
 <style scoped>

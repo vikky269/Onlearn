@@ -1,6 +1,6 @@
 <template>
   <footer class="relative">
-     <div class="grid grid-cols-1 pt-28 pb-12 gap-3 md:grid-cols-2 md:gap-6 lg:flex lg:items-center justify-evenly sm:px-[35px]">
+     <div class="grid grid-cols-1 pt-28 pb-12 gap-6 md:grid-cols-2 md:gap-6 lg:flex lg:items-center justify-evenly sm:px-[35px]">
        <div class="flex flex-col ml-9 gap-7 items-start w-[279px] h-[320px] hover:cursor-pointer">
         <!--onlearn logo-->
            <div class="flex items-center justify-between gap-4">
