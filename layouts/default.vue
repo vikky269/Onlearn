@@ -5,7 +5,7 @@
         <!-- Nuxt Page -->
         <slot></slot>
 
-        <div class="mt-24 overflow-hidden footer pt-10">
+        <div class="mt-24 overflow-hidden footer">
           <Footer />
         </div>
     </div>
@@ -24,8 +24,8 @@
   left: 0;
   width: 100%;
   height: 100%;
-  border-radius: 20% 10% 0 0 / 100% 100% 0 0;
-  transform: scaleX(1.2);
+  border-radius: 45% 40% 0 0;
+  transform: scaleX(1.5);
 }
 
 </style>

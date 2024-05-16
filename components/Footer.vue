@@ -1,6 +1,6 @@
 <template>
   <footer class="relative">
-     <div class="grid grid-cols-1 pt-28 gap-3 md:grid-cols-2 md:gap-6 lg:flex lg:items-center justify-evenly py-6 sm:px-[35px]">
+     <div class="grid grid-cols-1 pt-28 pb-12 gap-3 md:grid-cols-2 md:gap-6 lg:flex lg:items-center justify-evenly sm:px-[35px]">
        <div class="flex flex-col ml-9 gap-7 items-start w-[279px] h-[320px] hover:cursor-pointer">
         <!--onlearn logo-->
            <div class="flex items-center justify-between gap-4">
@@ -34,7 +34,7 @@
        </div>
 
        <!--SECOND DIV-->
-       <div class="flex flex-col gap-7 text-[#0b7077] hover:cursor-pointer ml-9">
+       <div class="flex flex-col gap-6 text-[#0b7077] hover:cursor-pointer ml-9 lg:mt-[-90px]">
         <a href="#" class="font-custom text-[#0A033C] text-[15px] font-bold">Categories</a >
         <a href="#"  class="font-custom text-[14px] font-medium">Counselling</a >
         <a href="#"  class="font-custom text-[14px] font-medium">Health and fitness</a >
@@ -43,14 +43,14 @@
        </div>
 
        <!--third div-->
-       <div class="flex flex-col gap-7 text-[#0b7077] hover:cursor-pointer ml-9">
+       <div class="flex flex-col gap-6 text-[#0b7077] hover:cursor-pointer ml-9 lg:mt-[-180px]">
         <a class="font-custom text-[#0A033C] text-[15px] font-bold">Links</a >
         <a href="#" class="font-custom text-[14px] font-medium">About us</a>
         <a href="#" class="font-custom text-[14px] font-medium">blog</a>
        </div>
 
        <!--last div-->
-       <div class="flex flex-col items-center gap-3 md:gap-5 font-custom lg:items-center md:items-start mt-6">
+       <div class="flex flex-col items-center gap-3 md:gap-4 font-custom lg:items-center md:items-start lg:mt-[-100px]">
          <span class="text-[#0A033C] text-[13px] md:text-[15px] font-normal">Stay up to date with the latest courses</span>
          <div class="flex items-center bg-white px-10 rounded-xl relative">
             <input type="email" placeholder="Email" class="py-6 px-8 max-md:w-[150px] outline-none">
