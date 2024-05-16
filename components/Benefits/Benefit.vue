@@ -25,20 +25,20 @@ import BenefitCard from './BenefitCard.vue';
 
 const benefit = ref ([
 {
-            "img1":"/img/benefits/Group 1.png",
-            "details": "Teachers don't get lost in the grid view and have a", 
-            "content": "dedicated Podium space."
+            img1:"/img/benefits/Group 1.png",
+            details: "Teachers don't get lost in the grid view and have a", 
+            content: "dedicated Podium space."
             
         },
         {
-            "img1":"/img/benefits/Group 2.png",
-            "details": "TA’s and presenters can be moved to the front of ",
-            "content": "the class"
+            img1:"/img/benefits/Group 2.png",
+            details: "TA’s and presenters can be moved to the front of ",
+            content: "the class"
         },
         {
-            "img1":"/img/benefits/Group 3.png",
-            "details": "Teachers can easily see all students and class data",
-             "content": " at One time"
+            img1:"/img/benefits/Group 3.png",
+            details: "Teachers can easily see all students and class data",
+             content: " at One time"
         }
 ])
 

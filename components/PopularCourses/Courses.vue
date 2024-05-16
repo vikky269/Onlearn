@@ -17,9 +17,8 @@
     </div> 
 
     <!--cards section-->
-
-    <div
-      class="p-2 grid grid-cols-1 gap-8 md:grid md:grid-cols-2 md:gap-8 lg:grid-cols-4 lg:gap-5 xl:flex xl:items-center xl:gap-6 mt-8">
+    
+    <div class="p-2 grid grid-cols-1 gap-8 md:grid md:grid-cols-2 md:gap-8 lg:grid-cols-4 lg:gap-5 xl:flex xl:items-center xl:gap-6 mt-8" >
       <div v-for="card in cards" :key="card.pricing ">
         <Card :card="card" />
       </div>
@@ -32,51 +31,51 @@ import { ref } from 'vue';
 import  Card from './Card.vue'
   const cards = ref([
   {
-            "img1":"/img/cards/rect1.png",
-             "img2":"/img/cards/Group.png",
-             "number": "+ 40 students",
-             "date": "1-28 july 2022",
-             "title1": "Product Management Basic-",
-             "title": "Course",
-            "details": "Product Management Masterclass, you will learn with Sarah Johnson - Head of Product Customer Platform Gojek Indonesia.",
-             "pricing": 380,
-             "discount": "/img/cards/Discount.png"
+            img1:"/img/cards/rect1.png",
+             img2:"/img/cards/Group.png",
+             number: "+ 40 students",
+             date: "1-28 july 2022",
+             title1: "Product Management Basic-",
+             title: "Course",
+             details: "Product Management Masterclass, you will learn with Sarah Johnson - Head of Product Customer Platform Gojek Indonesia.",
+             pricing: 380,
+             discount: "/img/cards/Discount.png"
 
         },
         {
-            "img1":"/img/cards/rect2.png",
-             "img2":"/img/cards/Group.png",
-             "number": "+ 11 students",
-             "date": "1-28 july 2022",
-             "title1": "BM Data Science Professional",
-             "title": "Certificate",
-            "details": "Product Management Masterclass, you will learn with Sarah Johnson - Head of Product Customer Platform Gojek Indonesia.",
-             "pricing": 678,
-             "discount":"/img/cards/Discount.png"
+            img1:"/img/cards/rect2.png",
+             img2:"/img/cards/Group.png",
+             number: "+ 11 students",
+             date: "1-28 july 2022",
+             title1: "BM Data Science Professional",
+             title: "Certificate",
+             details: "Product Management Masterclass, you will learn with Sarah Johnson - Head of Product Customer Platform Gojek Indonesia.",
+             pricing: 678,
+             discount:"/img/cards/Discount.png"
 
         },
         {
-            "img1":"/img/cards/rect3.png",
-             "img2":"/img/cards/Group.png",
-             "number": "+ 234 students",
-             "date": "1-28 july 2022",
-             "title1": "The Science of Well-Being",
-             "title": "For Everybody",
-            "details": "Product Management Masterclass, you will learn with Sarah Johnson - Head of Product Customer Platform Gojek Indonesia.",
-             "pricing": 123,
-             "discount": "/img/cards/Discount.png"
+            img1:"/img/cards/rect3.png",
+             img2:"/img/cards/Group.png",
+             number: "+ 234 students",
+             date: "1-28 july 2022",
+             title1: "The Science of Well-Being",
+             title: "",
+             details: "Product Management Masterclass, you will learn with Sarah Johnson - Head of Product Customer Platform Gojek Indonesia.",
+             pricing: 123,
+             discount: "/img/cards/Discount.png"
 
         },
         {
-            "img1":"/img/cards/rect4.png",
-             "img2":"/img/cards/Group.png",
-             "number": "+ 342 students",
-             "date": "1-28 july 2022",
-             "title1": "Python for Everybody",
-             "title": "Specialization",
-            "details": "Product Management Masterclass, you will learn with Sarah Johnson - Head of Product Customer Platform Gojek Indonesia.",
-             "pricing": 567,
-             "discount":"/img/cards/Discount.png" 
+            img1:"/img/cards/rect4.png",
+             img2:"/img/cards/Group.png",
+             number: "+ 342 students",
+             date: "1-28 july 2022",
+             title1: "Python for Everybody",
+             title: "Specialization",
+            details: "Product Management Masterclass, you will learn with Sarah Johnson - Head of Product Customer Platform Gojek Indonesia.",
+             pricing: 567,
+             discount:"/img/cards/Discount.png" 
 
         }
   ])

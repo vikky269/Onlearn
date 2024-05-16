@@ -1,5 +1,5 @@
 <template>
-     <div class="relative rounded-[14px] w-[280px] h-[500px] bg-white shadow-lg hover:translate-y-[-2px] transition-all">
+     <div class="relative flex flex-col rounded-[14px] w-[280px] h-[500px] bg-white shadow-lg hover:translate-y-[-2px] transition-all">
         <div>
             <img :src="card.img1" alt="" class=" w-[full] h-[200px] rounded-t-[15px]"/>
         </div>
@@ -9,15 +9,18 @@
         </div>
     <!--Card text content-->
          <div class="flex flex-col gap-3 w-full h-[120px] mt-16 px-3 font-custom ">
-              <span class="text-[#777795] text-xs">{{ card.date }}</span>
-              <span class="text-[#0B7077] text-[15.2px] font-bold">{{ card.title1 }}</span>
-              <span class="text-[#0B7077] text-[15.2px] font-bold mt-[-10px]">{{ card.title }}</span>
-              <span class="text-[10px] text-[#4D4D4D]">{{ card.details}}</span>
+              <span class="text-[rgb(119,119,149)] text-xs">{{ card.date }}</span>
+              <span class="text-[#0B7077] text-[15.2px] font-bold text-wrap">{{ card.title1 }}</span>
+              
+                <span  class="text-[#0B7077] text-[15.2px] font-bold text-wrap mt-[-10px]">{{ card.title }}</span>
+    
+                  <p class="text-[10px] text-[#4D4D4D]">{{ card.details}}</p>
+              
 
               <!--price content-->
               <div class="flex justify-between mt-10">
                 <div class="flex items-start justify-between gap-3 font-custom">
-                    <span class="font-maven text-[16.66px] text-[#FD661F]" >${{ card.pricing }}</span>
+                    <p class="font-maven text-[16.66px] text-[#FD661F]" >${{ card.pricing }}</p>
                     <img :src="card.discount" alt="">
                 </div>
                 <div>

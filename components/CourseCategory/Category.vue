@@ -28,28 +28,28 @@ import CategCard from './CategCard.vue';
 
 const category = ref([
         {
-            "img1":"/img/category/beauty.png",
-            "title":"Beauty",
-            "details": "One powerful online software suite that combines",
-             "btntext":   "more"
+            img1:"/img/category/beauty.png",
+            title:"Beauty",
+            details: "One powerful online software suite that combines",
+             btntext:   "more"
         },
         {
-            "img1":"/img/category/medical.png",
-            "title":"Medical",
-            "details": "One powerful online software suite that combines",
-             "btntext":   "more"
+            img1:"/img/category/medical.png",
+            title:"Medical",
+            details: "One powerful online software suite that combines",
+             btntext:   "more"
         },
         {
-            "img1":"/img/category/sports.png",
-            "title":"Sports",
-            "details": "One powerful online software suite that combines",
-             "btntext":   "more"
+            img1:"/img/category/sports.png",
+            title:"Sports",
+            details: "One powerful online software suite that combines",
+             btntext:   "more"
         },
         {
-            "img1":"/img/category/nutrition.png",
-            "title":"Nutrition",
-            "details": "One powerful online software suite that combines",
-             "btntext":   "more"
+            img1:"/img/category/nutrition.png",
+            title:"Nutrition",
+            details: "One powerful online software suite that combines",
+             btntext:   "more"
         }
 ])
 

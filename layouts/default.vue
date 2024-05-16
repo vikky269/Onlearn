@@ -5,7 +5,7 @@
         <!-- Nuxt Page -->
         <slot></slot>
 
-        <div class="mt-24 overflow-hidden footer">
+        <div class="mt-28 overflow-hidden footer h-full">
           <Footer />
         </div>
     </div>
@@ -14,18 +14,11 @@
 
 <style scoped>
 .footer{
-  position: relative;
+  background-image: url("/public/img/footer/Rectangle .png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-.footer::before{
-  content: "";
-  background-color: #D2E6E4;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 45% 40% 0 0;
-  transform: scaleX(1.5);
-}
+
 
 </style>
